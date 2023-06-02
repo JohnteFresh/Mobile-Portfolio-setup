@@ -25,14 +25,6 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -62,15 +54,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Mobile Portfolio-setup] <a name="about-project">Johnson's Portfolio</a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Mobile-Portfolio-setup]** is a project describing the nature of my expertise.
 
 ## 🛠 Built With <a name="built-with">HTML and CSS</a>
 
 ### Tech Stack <a name="tech-stack">HTML and CSS</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 Mobile Portfolio setup is a HTML and CSS project describing my expertise at a grance.
 
 <details>
@@ -83,8 +72,6 @@ Mobile Portfolio setup is a HTML and CSS project describing my expertise at a gr
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Conducted a linters check.]**
 - **[Styled my page using css.]**
 
@@ -95,8 +82,8 @@ Mobile Portfolio setup is a HTML and CSS project describing my expertise at a gr
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-<p>A new developer could use my project as a guide to build their own.</p>
+A new developer could use my project as a guide to build their own.
+
 To get a local copy up and running, follow these steps.
 In you command line "git clone https://github.com/JohnteFresh/Mobile-Portfolio-setup.git" and press enter.
 
@@ -114,12 +101,13 @@ Using https://github.com/JohnteFresh/Mobile-Portfolio-setup.git
 ### Install
 
 Install this project with:
+Install by running 'npm install'
 
 
 ### Usage
 
 To run the project, execute the following command:
-
+Open the index.html file with your browser.
 
 ### Run tests
 
@@ -136,11 +124,11 @@ https://johntefresh.github.io/Mobile-Portfolio-setup/
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors">Johnson Irungu</a>
+## 👥 Author <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Johnson Irungu**
 
 - GitHub: [@githubhandle](https://github.com/JohnteFresh)
 - Twitter: [@twitterhandle](https://twitter.com/RoadKing254)
@@ -153,7 +141,6 @@ https://johntefresh.github.io/Mobile-Portfolio-setup/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[My Past work Experience]**
 - [ ] **[My Resume]**
@@ -175,8 +162,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project leave a review.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -185,8 +170,6 @@ If you like this project leave a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for the knowledge impact they have on my life.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +177,7 @@ I would like to thank Microverse for the knowledge impact they have on my life.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is  licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
