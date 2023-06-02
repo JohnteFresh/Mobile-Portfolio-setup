@@ -126,8 +126,6 @@ https://johntefresh.github.io/Mobile-Portfolio-setup/
 
 ## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Johnson Irungu**
 
 - GitHub: [@githubhandle](https://github.com/JohnteFresh)
