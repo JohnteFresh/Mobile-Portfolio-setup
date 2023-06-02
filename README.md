@@ -130,13 +130,7 @@ npx stylelint "**/*.{css,scss}"
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+https://johntefresh.github.io/Mobile-Portfolio-setup/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +177,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project leave a review.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
