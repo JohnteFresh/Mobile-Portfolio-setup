@@ -1,0 +1,138 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-bar {
+  display: flex;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 92px;
+  position: absolute;
+  margin: 0;
+}
+
+.logo-placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 94px;
+  height: 44px;
+  left: 12px;
+  top: calc(50% - 44px / 2);
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  display: flex;
+  margin: 12px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.menu {
+  height: 40px;
+  width: 40px;
+  margin-left: 0;
+  margin-top: 0;
+  border-radius:  0px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  top: 92px;
+  padding: 120px 24px 120px 24px;
+  background: #1c1a19;
+  background-image: url(./Images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom -3rem;
+  min-height: calc(100vh - 92px);
+}
+
+.hello {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  margin: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.john {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0.75rem;
+  width: 100%;
+  color: #fff5e1;
+  display: flex;
+  align-items: center;
+}
+
+.dText {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  margin: 12px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.SM-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  width: 12.5rem;
+  top: 26.875rem;
+  margin: 0.75rem;
+  left: 1.5rem;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.box {
+  width: 6.25rem;
+}
