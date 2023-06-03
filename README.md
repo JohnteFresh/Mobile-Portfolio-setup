@@ -118,7 +118,7 @@ npx stylelint "**/*.{css,scss}"
 
 You can deploy this project using:
 
-https://johntefresh.github.io/Mobile-Portfolio-setup/
+ https://johntefresh.github.io/Mobile-Portfolio-setup/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
