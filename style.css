@@ -1,13 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .app-bar {
   display: flex;
   background-color: #3c3a39;
-  width: 375px;
+  width: 100%;
   height: 92px;
   position: absolute;
   margin: 0;
 }
 
-.logo-placeholder {
+/* .logo-placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,21 +22,16 @@
   height: 44px;
   left: 12px;
   top: calc(50% - 44px / 2);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+} */
 
 .logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   display: flex;
+  margin: 12px;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -60,19 +61,22 @@
   border-radius:  0px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  position: absolute;
-  height: 590px;
-  width: 375px;
-  top: 92px;
-  padding: 120px 24px 120px 24px;
-  gap: 12px;
-  background: #1c1a19;
-}
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    top: 92px;
+    padding: 120px 24px 120px 24px;
+    background: #1C1A19;
+    background-image: url(./Images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom -3rem;
+    min-height: calc(100vh - 92px);
+  }
 
 .hello {
   font-family: 'Crete Round', sans-serif;
@@ -81,44 +85,44 @@
   font-size: 56px;
   line-height: 64px;
   color: #ff6b00;
-  letter-spacing: 0.37px;
+  margin: 12px;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.image {
+/* .image {
   position: absolute;
   width: 406.89px;
   height: 312.03px;
   left: 230.1px;
   top: 190px;
-}
+} */
 
 .john {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  height: 27px;
-  width: 327px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  height: 1.688rem;
+  margin:12px;
+  width: 100%;
   color: #fff5e1;
   display: flex;
   align-items: center;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
 }
 
 .dText {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  width: 327px;
-  height: 123px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 20.438rem;
+  height: 7.688rem;
+  margin: 12px;
   color: #fff;
   flex: none;
   order: 2;
@@ -129,9 +133,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 200px;
-  top: 430px;
-  left: 24px;
+  list-style-type: none;
+  width: 12.5rem;
+  top: 26.875rem;
+  margin: 12px;
+  left: 1.5rem;
   flex: none;
   order: 3;
   flex-grow: 0;
