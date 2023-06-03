@@ -1,9 +1,10 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .app-bar {
   display: flex;
   background-color: #3c3a39;
@@ -62,21 +63,21 @@
 }
 
 .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    position: absolute;
-    width: 100%;
-    top: 92px;
-    padding: 120px 24px 120px 24px;
-    background: #1C1A19;
-    background-image: url(./Images/Illustration.png);
-    background-repeat: no-repeat;
-    background-position: right bottom -3rem;
-    min-height: calc(100vh - 92px);
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  top: 92px;
+  padding: 120px 24px 120px 24px;
+  background: #1c1a19;
+  background-image: url(./Images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom -3rem;
+  min-height: calc(100vh - 92px);
+}
 
 .hello {
   font-family: 'Crete Round', sans-serif;
@@ -106,12 +107,11 @@
   font-size: 1.5rem;
   line-height: 2rem;
   height: 1.688rem;
-  margin:12px;
+  margin: 12px;
   width: 100%;
   color: #fff5e1;
   display: flex;
   align-items: center;
-
 }
 
 .dText {
